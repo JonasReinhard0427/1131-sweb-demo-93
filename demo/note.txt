@@ -3,4 +3,7 @@ git config global user.email "
   git config --global user.name "JonasReinhard0427"
 
   git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2024-09-18"
-  
+
+
+git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2024-09-24"
+
