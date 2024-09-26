@@ -1,11 +1,13 @@
 body {
-  background-color: #f1f2ec;
+  background-color: #2e1089;
+  
 }
 
 .container {
-  background-color: #ffffff;
-  width: 80%;
-  margin: 30px auto;
-  border: 2px solid purple;
-  padding: 16px 30px 36px 30px;
+  background-color: #91f1f6;
+  max-width: 450px;
+  width: 70%;
+  margin: 20px auto;
+  border: 5px solid rgb(185, 13, 24);
+  padding: 20px 15px 50px 15px;
 }
