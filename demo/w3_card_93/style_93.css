@@ -64,3 +64,10 @@ margin:0 auto
   background-color: rgba(243, 29, 29, 0.223);
   border-color: rgba(243, 29, 29, 0.459);
 }
+
+.img {
+  width: 98%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+}
