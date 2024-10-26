@@ -93,23 +93,23 @@ body {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1080px) {
   
   .blogs-center{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr) ;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1150px) {
   
   .blogs-center{
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr) ;
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1450px) {
   
   .blogs-center{
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
   }
 }
