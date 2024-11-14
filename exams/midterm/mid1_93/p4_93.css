@@ -75,7 +75,7 @@ li {
   =========
   */
 
-.navbar {
+.nav {
   display: flex;
   align-items: center;
   height: 3rem;
@@ -83,38 +83,38 @@ li {
   border-bottom: 1px solid var(--clr-grey-3);
 }
 
-.navbar-center {
+.nav-center {
   display: flex;
   width: 100%;
   justify-content: space-around;
   align-items: center;
 }
 
-.navbar-header h4 {
+.nav-header h4 {
   font-size: 1rem;
   color: var(--clr-grey-5);
 }
 
-.navbar-header a {
+.nav-header a {
   text-decoration: none;
   color: var(--clr-primary-1);
   font-size: 1rem;
 }
 
-.navbar-links {
+.nav-links {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 1.5rem;
 }
 
-.navbar-links li a {
+.nav-links li a {
   text-decoration: none;
   color: var(--clr-primary-3);
   font-size: 1rem;
 }
 
-.navbar-links li a:hover {
+.nav-links li a:hover {
   color: var(--clr-primary-1);
   font-weight: 500;
   border-bottom: 1px solid purple;
