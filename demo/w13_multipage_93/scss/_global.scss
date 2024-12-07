@@ -246,8 +246,9 @@ ul {
 /* alert */
 
 /* title */
-.title {
+.section-title {
   text-align: center;
+  margin-top: 2rem;
 
   &-underline {
     background: var(--primary-500);

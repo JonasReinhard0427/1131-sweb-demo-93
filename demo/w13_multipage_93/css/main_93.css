@@ -232,10 +232,11 @@ ul {
 
 /* alert */
 /* title */
-.title {
+.section-title {
   text-align: center;
+  margin-top: 2rem;
 }
-.title-underline {
+.section-title-underline {
   background: var(--primary-500);
   width: 7rem;
   height: 0.25rem;
