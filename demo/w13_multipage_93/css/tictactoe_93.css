@@ -1,0 +1,66 @@
+.tictactoe {
+  background-color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  overflow: auto;
+  margin: 40px auto;
+  border-radius: 10px;
+  padding-bottom: 40px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.board {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.board li {
+  margin: 10px;
+  width: 90px;
+  height: 70px;
+  font-size: 40px;
+  font-weight: 800;
+  background-color: #333;
+  color: #CCC;
+  list-style: none;
+  text-align: center;
+  border-radius: 5px;
+}
+.board li:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+.board .o {
+  color: green;
+}
+.board .x {
+  color: red;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+
+.reset {
+  background-color: #444;
+  color: #fff;
+  padding: 15px;
+  width: 75%;
+  font-size: 25px;
+  border-radius: 5px;
+}
+.reset:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+
+/*# sourceMappingURL=tictactoe_93.css.map */
