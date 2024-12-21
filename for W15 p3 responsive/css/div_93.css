@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/* 主容器样式 */
+.div_container_93 {
+  max-width: 1000px;
+  min-width: 450px;
+  background-color: #fff;
+  width: 80%;
+  height: 80vh;
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* Desktop布局，两个主要区域 */
+  grid-template-rows: 0.6fr, 4fr, 0.4fr;
+  grid-template-areas: "logo header" "article aside" "footer footer";
+  grid-gap: 0.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+/* logo 区域样式 */
+.div_container_93 .logo {
+  background-color: #eababa;
+  grid-area: logo;
+}
+
+/* header 区域样式 */
+.div_container_93 header {
+  background-color: #F2D2BD;
+  grid-area: header;
+}
+
+/* article 区域样式 */
+.div_container_93 article {
+  background-color: #d18fdf;
+  grid-area: article;
+}
+
+/* 导航样式 */
+.div_container_93 article .nav {
+  width: 80%;
+  height: 90%;
+  margin: 10px auto;
+  background-color: #9cbaf3;
+}
+
+/* aside 区域样式 */
+.div_container_93 aside {
+  background-color: rgb(232, 235, 72);
+  grid-area: aside;
+}
+
+/* section 区域样式 */
+.div_container_93 section {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0.6rem auto;
+  background-color: #a4caaf;
+}
+
+/* 视频响应式容器 */
+.div_container_93 .video-responsive {
+  width: 90%;
+  margin: 10px auto;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+/* 视频 iframe 样式 */
+.div_container_93 .video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* 图片容器 */
+.div_container_93 .picContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* 小图片样式 */
+.div_container_93 .picContainer .small_pic {
+  width: 15%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* 图片样式 */
+.div_container_93 .picContainer .small_pic img {
+  width: 100%;
+  height: auto; /* 保持图片比例 */
+}
+
+/* footer 区域样式 */
+.div_container_93 footer {
+  background-color: rgb(187, 127, 127);
+  grid-area: footer;
+}
+
+/* Mobile Responsiveness: */
+@media (max-width: 768px) {
+  .div_container_93 {
+    display: grid;
+    grid-template-columns: 1fr; /* 单列布局，适配手机 */
+    grid-template-rows: 0.4fr 0.4fr 1fr 2fr 0.4fr;
+    grid-template-areas: "logo" "header" "article" "aside" "footer";
+  }
+  /* 减小字体，适配手机 */
+  .div_container_93 header,
+  .div_container_93 footer {
+    font-size: 0.7rem;
+  }
+  .div_container_93 article .nav {
+    width: 100%;
+    height: auto; /* 自动调整高度 */
+  }
+  .div_container_93 section {
+    width: 100%;
+    height: auto;
+  }
+  .div_container_93 .video-responsive {
+    width: 100%;
+  }
+  .div_container_93 .picContainer {
+    flex-direction: column; /* 改为垂直排列 */
+    align-items: flex-start;
+  }
+  .div_container_93 .picContainer .small_pic {
+    width: 30%; /* 调整图标的大小 */
+    margin-bottom: 10px;
+  }
+}
+/* 更小屏幕的调整（例如，针对手机） */
+@media (max-width: 550px) {
+  .div_container_93 .picContainer .small_pic {
+    width: 40%; /* 更大图标以适配超小屏设备 */
+  }
+}
+/* 为播放器容器添加样式 */
+.player {
+  width: 100%; /* 播放器宽度为100% */
+  max-width: 800px; /* 最大宽度为800px，避免过大 */
+  margin: 0 auto; /* 居中对齐 */
+  padding: 20px; /* 内边距，增加与其他元素的间距 */
+  box-sizing: border-box; /* 包括内边距和边框的宽度计算 */
+}
+
+/* 用于确保iframe的自适应尺寸 */
+.video-responsive {
+  position: relative;
+  width: 100%; /* 父容器宽度为100% */
+  padding-bottom: 56.25%; /* 16:9的纵横比，56.25%是16:9的高度比 */
+  height: 0;
+  overflow: hidden; /* 超出部分隐藏 */
+}
+
+.video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* 让iframe的宽度自适应容器 */
+  height: 100%; /* 让iframe的高度自适应容器 */
+  border: none; /* 去掉iframe的默认边框 */
+}
+
+/*# sourceMappingURL=div_93.css.map */
