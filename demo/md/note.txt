@@ -5,10 +5,24 @@ git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2024-12-21"
 
 
 
-
-
-
 [My Github URL](https://github.com/JonasReinhard0427/1131-sweb-demo-93)
+
+
+
+        <ul class="social icons">
+          <li>
+            <a href="https://github.com/JonasReinhard0427/1131-sweb-demo-93">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://1131-sweb-demo-93.vercel.app/">
+              <i class="fa-solid fa-globe"></i>              
+          </li>
+        </ul>
+
+
+
 
 
 ### W07-P1: Test css and js for w07_93.html
