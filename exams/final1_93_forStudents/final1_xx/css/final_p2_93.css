@@ -1,0 +1,18 @@
+.final_panel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #f1f1ff;
+  border: #ddd;
+  width: 80%;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .final_panel {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=final_p2_93.css.map */

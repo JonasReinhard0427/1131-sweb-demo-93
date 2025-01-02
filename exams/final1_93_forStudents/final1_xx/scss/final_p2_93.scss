@@ -1,0 +1,23 @@
+.final_panel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #f1f1ff;
+  border: #ddd;
+
+  // display: grid;
+  // grid-template-areas: 'pricing-plan1 pricing-plan2 pricing-plan3';
+  width: 80%;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .final_panel {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    // &-center {
+    //   display: grid;
+    //   grid-template-columns: repeat(2, 1fr);
+    // }
+  }
+}
